@@ -200,14 +200,26 @@ class CalcitonDoublingViewController: UIViewController, UITableViewDelegate, UIT
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        if #available(iOS 13.0, *) {
+            view.backgroundColor = .systemBackground
+            dateMarkerTable.backgroundColor = .secondarySystemBackground
+            dateMarkerTable.separatorColor = .separator
+        } else {
+            view.backgroundColor = .white
+            let tableBackground = UIColor(white: 0.96, alpha: 1.0)
+            dateMarkerTable.backgroundColor = tableBackground
+            dateMarkerTable.separatorColor = UIColor(white: 0.8, alpha: 1.0)
+        }
+        dateMarkerTable.tableFooterView = UIView(frame: .zero)
+
         MarkerTxt.delegate = self
         self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(CalcitonDoublingViewController.dismissKeyboard)))
     }
     
     
     
-   func dismissKeyboard(){
-    
+    @objc private func dismissKeyboard(){
+
         MarkerTxt.resignFirstResponder()
     }
     
