@@ -9,10 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface TNMViewController : UIViewController
-{ IBOutlet UIWebView *webview;
-}
-@property (nonatomic, retain)  UIWebView *webview;
-
-
 
 @end

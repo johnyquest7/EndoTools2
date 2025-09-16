@@ -206,8 +206,8 @@ class CalcitonDoublingViewController: UIViewController, UITableViewDelegate, UIT
     
     
     
-   func dismissKeyboard(){
-    
+    @objc private func dismissKeyboard(){
+
         MarkerTxt.resignFirstResponder()
     }
     
