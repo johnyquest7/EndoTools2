@@ -10,11 +10,4 @@
 
 @interface TFTPregnancyViewController : UIViewController
 
-
-{ IBOutlet UIWebView *webview;
-}
-
-@property (nonatomic, retain)  UIWebView *webview;
-
-
 @end

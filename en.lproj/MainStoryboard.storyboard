@@ -16,28 +16,10 @@
                     <view key="view" contentMode="scaleToFill" id="CcA-g2-ZYP">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <webView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IFG-AY-aLg">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <animations/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
-                                <dataDetectorType key="dataDetectorTypes"/>
-                            </webView>
-                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="IFG-AY-aLg" firstAttribute="leading" secondItem="CcA-g2-ZYP" secondAttribute="leading" id="ELM-ac-xYs"/>
-                            <constraint firstItem="IFG-AY-aLg" firstAttribute="top" secondItem="CcA-g2-ZYP" secondAttribute="top" id="a6e-I2-DUd"/>
-                            <constraint firstItem="IFG-AY-aLg" firstAttribute="trailing" secondItem="CcA-g2-ZYP" secondAttribute="trailing" id="cMU-re-coF"/>
-                            <constraint firstItem="IFG-AY-aLg" firstAttribute="bottom" secondItem="CcA-g2-ZYP" secondAttribute="bottom" id="g67-Xf-nv9"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="TNM staging thyroid ca" id="DJm-Gq-6TT"/>
-                    <connections>
-                        <outlet property="webview" destination="IFG-AY-aLg" id="RrC-fs-VR9"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tb7-MX-CoW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -821,26 +803,10 @@
                     <view key="view" contentMode="scaleToFill" id="dNH-SS-CcT">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a0o-0P-7zK">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <animations/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </webView>
-                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="a0o-0P-7zK" firstAttribute="bottom" secondItem="dNH-SS-CcT" secondAttribute="bottom" id="NNX-Is-bDI"/>
-                            <constraint firstItem="a0o-0P-7zK" firstAttribute="top" secondItem="dNH-SS-CcT" secondAttribute="top" id="OQ4-7j-9dh"/>
-                            <constraint firstItem="a0o-0P-7zK" firstAttribute="leading" secondItem="dNH-SS-CcT" secondAttribute="leading" id="e3f-FL-oOi"/>
-                            <constraint firstItem="a0o-0P-7zK" firstAttribute="trailing" secondItem="dNH-SS-CcT" secondAttribute="trailing" id="vzR-9B-m3q"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="TFT's in pregnancy" id="TIp-2z-7ri"/>
-                    <connections>
-                        <outlet property="webview" destination="a0o-0P-7zK" id="KkG-P6-bS2"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ebe-fs-waE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
